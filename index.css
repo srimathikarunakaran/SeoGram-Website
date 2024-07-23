@@ -187,11 +187,19 @@ body{
     background-color: blueviolet;
     justify-content: center;
     height: 300px;
+    margin-top: 30px;
+    font-family: "Montserrat", sans-serif;
+
 
 }
+.web-sub{
+    display: inline-block;
+}
 .search-bar{
+     display: flex;
     margin-top: 60px;
     position: relative;
+      margin-right: 150px;
 }
 .search-bar input{
     margin-top: 100px;
@@ -206,8 +214,8 @@ body{
 }
 .button2 {
     position:absolute;
-    bottom:-1637px;
-    right:250px
+    bottom:-1776px;
+    right:430px
 }
 .button2 button{
     /* postion: absolute; */
@@ -225,7 +233,9 @@ body{
     background-color: rgb(207, 204, 193);
     color: black;
 }
-.heading{
-    margin-left: 50px;
+.heading .head-name{
+    margin-top: 100px;
+    margin-left: 150px;
+    color: white;
+    
 }
-
