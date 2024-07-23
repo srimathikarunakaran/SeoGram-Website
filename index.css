@@ -1,0 +1,231 @@
+body{
+    margin-bottom:1000px;
+}
+
+
+.nav-container{
+    display: flex;
+    border: 1px solid black;
+    border: none;
+}
+.logo{
+    margin-left: 90px;
+    display: flex;
+}
+.logo.text{
+    color: #6C55F9;
+
+}
+.all-name{
+    display: flex;
+    margin-top: 35px;
+    margin-left: 400px;
+    width: 500px;
+    justify-content: space-around;
+}
+.all-name .name5{
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 1px;
+}
+.name5{
+    margin-top: 20px;
+    border: 1px solid black;
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color:#6C55F9;
+    border: none;
+    border-radius: 4px;
+    color: white;
+}
+.logo .con{
+    color: black;
+}
+.main-container{
+   
+    /* border: 1px solid black; */
+    /* margin-top: 40px;
+    margin-left: 90px; */
+    display: flex;
+   
+    padding-bottom: 70px;
+    background-color: #a199e021;
+    border-radius: 20px;
+    /* border: none; */
+    width: 1100px;
+
+}
+.container-move{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+.main-container .text{
+    display: inline-block;
+    margin-left: 80px;
+    margin-top: 120px;
+    color: #645F88;
+    font-family: "Open Sans", sans-serif;
+  
+}
+.banner {
+    display:inline-block;
+    margin-top: 90px;
+    margin-left: 70px
+
+}
+.text1{
+    display: flex;
+    border-radius: 20px;
+    background-color: #6C55F9;
+    color: white;
+    width: 130px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-top: 5px;
+
+}
+.text1 .icon{
+    margin-top: 5px;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+}
+.main-con{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.sub-con{
+     
+    width: 300px;
+    margin-left: 50px;
+    text-align: center;
+    border-radius: 20px;
+    background-color:rgba(234, 224, 224, 0.192);
+    height: 330px;
+    color: #645F88;
+}
+.button{
+    color: white;
+    background-color: #6C55F9;
+    width: 130px;
+    margin-left: 80px;
+    border-radius: 5px;
+}
+.main-container1{
+   background-color: white;
+   display: flex;
+   
+   padding-bottom: 70px;
+   border-radius: 20px;
+   /* border: none; */
+   width: 1100px;
+}
+.container-move{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+.main-container .text{
+    display: inline-block;
+    margin-left: 80px;
+    margin-top: 120px;
+    color: #645F88;
+    font-family: "Open Sans", sans-serif;
+  
+}
+.banner {
+    display:inline-block;
+    margin-top: 40px;
+    margin-left: 70px
+}
+.button1{
+    color: white;
+    background-color: #6C55F9;
+    border-radius: 5px;
+    width: 130px;
+    text-align: center;
+    padding-bottom: 1px;
+    padding-top: 1px;
+}
+.text{
+    color: #645F88;
+    font-family: "Open Sans", sans-serif;
+    
+}
+
+.third-container{
+    display: flex;
+}
+.page{
+    display: inline-block;
+    background-color: #d9d5f652;
+    width: 1500px;
+}
+.text-center{
+  color:#645F88;
+  text-align: center;
+}
+.header{
+    display: inline-block;
+    margin-top: 100px;
+    text-align: center;
+    margin-left: 60px;
+}
+.image img{
+    border-radius: 50%;
+    
+}
+.image-text{
+    text-align: center;
+    color: #645F88;
+}
+.web-container{
+    display: flex;
+    background-color: blueviolet;
+    justify-content: center;
+    height: 300px;
+
+}
+.search-bar{
+    margin-top: 60px;
+    position: relative;
+}
+.search-bar input{
+    margin-top: 100px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    padding-left: 200px;
+    padding-right: 200px;
+    border: none;
+    border-radius: 5px;
+
+
+}
+.button2 {
+    position:absolute;
+    bottom:-1637px;
+    right:250px
+}
+.button2 button{
+    /* postion: absolute; */
+    background-color: rgb(0, 209, 0);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: none;
+    color: white;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.button2 button:hover{
+    background-color: rgb(207, 204, 193);
+    color: black;
+}
+.heading{
+    margin-left: 50px;
+}
+
