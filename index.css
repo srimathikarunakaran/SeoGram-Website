@@ -239,3 +239,161 @@ body{
     color: white;
     
 }
+.plan-container{ /*5th container*/
+    display: inline-block;
+}
+.heading-plan{
+
+    display: inline-block;
+    text-align: center;
+    margin-left: 500px;
+    font-family: "Montserrat", sans-serif;
+    color:#645F88;
+}
+.card-price{
+    display: flex;
+}
+.price-header{
+    display: inline-block;
+    font-family: "Work Sans", sans-serif;
+    font-weight: bold;
+}
+.card-price.price-header.dollar{
+    display: inline-block;
+    vertical-align: top;
+    font-weight: 700;
+}
+
+.suffix{
+    font-size: large;
+    color: #645F88;
+}
+.price-type{
+    color: #645F88;
+}
+.per{
+    color: #645F88;
+    font-size: larger;
+    font-weight: 500px;
+}
+.container3{ /*7th container*/
+    display: flex;
+    background-color: #6C55F9;
+    justify-content: center; 
+    height: 500px;
+}
+.container3.text3{
+    display: inline-block;
+    color: white;
+    
+    
+
+}
+.text3{
+    color: white;
+    font-family: "Work Sans", sans-serif;
+    line-height: 1.5;
+    /*ending*/
+
+}
+.container4{  /*8th container*/
+    display: inline-block;
+    margin-top: 50px;
+    text-align: center;
+    font-family: "Work Sans", sans-serif;
+}
+
+.title{
+    display:inline-block;
+    text-align: center;
+    color: #645F88;
+  }
+  .page2{
+    display:flex;
+    text-align: center;
+  }
+ .box{
+    margin-left: 90px;
+ }
+ .pic-text{
+    color: #645F88;
+    font-size: small;
+ }
+ .button3{
+    margin-top: 40px;
+
+ }
+  .button3 button{
+    background-color: #6C55F9;
+    color: white;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: none;
+    color: white;
+    border-radius: 2px;
+    cursor: pointer;
+    font-family: "Work Sans", sans-serif;
+    font-size: large;
+    font-weight: 400;
+    margin-left: 100px;
+ 
+  }
+  .button3 button:hover{
+    background-color:#645F88;
+    color:white; /*ending*/
+}
+.final-container{ /*final con*/
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    background-color:rgb(39, 38, 38);
+    color: white;
+    height: 400px;
+    font-family: "Work Sans", sans-serif;
+}
+.info{
+    margin-top: 50px;
+    color: rgba(255, 255, 255, 0.541);
+    line-height: 30px;
+}
+.info1{
+  margin-top: 50px;
+  color: rgba(255, 255, 255, 0.541); 
+  line-height: 30px;
+  font-weight: 400px;
+  
+}
+.email input{
+    width: 250px;
+    margin-top: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 4px;
+    border: none;
+}
+.subs{
+    margin-top: 30px;
+}
+.subs button{
+    width: 250px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 4px;
+    border: none;
+    background-color: rgba(17, 204, 17, 0.678);
+    
+}
+.sub-info{
+    color: white;
+    font-size: large;
+    font-weight: 400;
+}
+.sub-info1{
+    color: white;
+    font-size: large;
+    font-weight: 400;
+}
+    /*overall ending*/
