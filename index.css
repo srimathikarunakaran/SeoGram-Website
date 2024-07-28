@@ -23,6 +23,9 @@ body{
     width: 500px;
     justify-content: space-around;
 }
+.n6{
+    margin-top: 13px;
+    margin-left: 40px;
 .n6 button{
     background-color: #6C55F9;
     color: white;
@@ -236,40 +239,118 @@ body{
 }
 .plan-container{ /*5th container*/
     display: inline-block;
+    margin-top: 50px;
 }
 .heading-plan{
-
-    display: inline-block;
     text-align: center;
-    margin-left: 500px;
     font-family: "Montserrat", sans-serif;
     color:#645F88;
 }
-.card-price{
+.all-card{
     display: flex;
+    margin-left: 100px;
+}
+.card-price{
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0.342);
+    text-align: center;
+    padding-right: 40px;
+    padding-left: 40px;
+    margin-left: 70px;
+    font-family: "Work Sans", sans-serif;
+    margin-top: 30px;
+    height: 500px;
 }
 .price-header{
-    display: inline-block;
-    font-family: "Work Sans", sans-serif;
-    font-weight: bold;
-}
-.card-price.price-header.dollar{
-    display: inline-block;
-    vertical-align: top;
-    font-weight: 700;
-}
+    position: relative;
+    margin-top: 30px;
 
-.suffix{
-    font-size: large;
-    color: #645F88;
 }
 .price-type{
     color: #645F88;
 }
 .per{
+    color: rgb(42, 42, 245);
+}
+.suffix{
+    color: #645f88a8;
+    font-size: 23px;
+}
+.dollar{
+    position: absolute;
+    left: 70px;
+    font-weight: bold;
+}
+.about{
+    margin-top: 30px;
     color: #645F88;
-    font-size: larger;
-    font-weight: 500px;
+}
+.subcr{
+    margin-top: 30px;
+}
+.subcr button{
+    border-radius: 4px;
+    width: 250;
+    background-color:#645f889f;
+    text-align: center;
+    color: white; border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 85px;
+    padding-right: 85px;
+    cursor: pointer;
+    font-family: "Work Sans", sans-serif;
+    font-size: large;
+    font-weight: 400;
+}
+.card1{
+    background-color: rgba(68, 68, 233, 0.671);
+    display: inline-block;
+    text-align: center;
+    padding-right: 40px;
+    padding-left: 40px;
+    margin-left: 70px;
+    font-family: "Work Sans", sans-serif;
+    margin-top: 30px;
+    color: white;
+}
+.card1 .about{
+    color: white;
+}
+.text-card{
+    color: white;
+}
+.card1.dollar{
+    color: white;
+}
+.card1.price-type.span{
+    color: white;
+}
+.sub-no{
+    color: rgba(255, 255, 255, 0.733);
+    font-size:x-large;
+}
+.duar{
+    color: white;
+}
+.sub-button{
+    margin-top: 30px;
+}
+.sub-button button{
+    border-radius: 4px;
+    width: 250;
+    background-color:white;
+    text-align: center;
+    color:#645F88;
+     border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 85px;
+    padding-right: 85px;
+    cursor: pointer;
+    font-family: "Work Sans", sans-serif;
+    font-size: large;
+    font-weight: 400;
 }
 .container3{ /*7th container*/
     display: flex;
